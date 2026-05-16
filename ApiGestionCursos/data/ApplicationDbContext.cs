@@ -27,6 +27,8 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     public DbSet<Estudiante> Estudiantes { get; set; }
     public DbSet<Inscripcion> Inscripciones { get; set; }
     //public DbSet<Calificaciones>
+    public DbSet<User> Users { get; set; }
+    public DbSet<ApplicationUser> ApplicationUsers { get; set; }
 
 
     //    public DbSet<Product> Products { get; set; }

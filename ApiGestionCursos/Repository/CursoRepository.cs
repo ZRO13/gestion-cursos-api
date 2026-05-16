@@ -1,5 +1,6 @@
 ﻿using ApiGestionCursos.Models;
 using ApiGestionCursos.Repository.IRepository;
+using Microsoft.EntityFrameworkCore;
 
 namespace ApiGestionCursos.Repository
 {
@@ -14,12 +15,19 @@ namespace ApiGestionCursos.Repository
 
         public ICollection<Curso> GetCursos()
         {
-            return _db.Cursos.OrderBy(c => c.Nombre).ToList();
+            return _db.Cursos
+        .Include(c => c.Docente) // <--- Esta es la clave
+        .OrderBy(c => c.Nombre)
+        .ToList();
+            //return _db.Cursos.OrderBy(c => c.Nombre).ToList();
         }
 
         public Curso? GetCurso(int id)
         {
-            return _db.Cursos.FirstOrDefault(c => c.CursoId == id);
+            // Usamos AsNoTracking para que EF no rastree esta entidad
+            // y no choque con la entidad que enviaremos en el Update
+
+            return _db.Cursos.AsNoTracking().FirstOrDefault(c => c.CursoId == id);
         }
 
         public bool CursoExists(int id)
