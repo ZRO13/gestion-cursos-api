@@ -73,6 +73,37 @@ namespace ApiEcommerce.Controllers
             //return CreatedAtRoute("GetUser", new { id = result.Id }, result);
             return Ok(result);
         }
+        [Authorize] // Requiere que el usuario esté autenticado para validar su token anterior
+        [HttpGet("check-status")]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public async Task<IActionResult> CheckStatus()
+        {
+            // 1. Obtener el ID del usuario directamente desde los Claims del Token JWT actual
+            var userIdClaim = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value
+                              ?? User.FindFirst("id")?.Value; // Ajusta según cómo guardes el ID en tu JWT
+            Console.Write(userIdClaim);
+            if (string.IsNullOrEmpty(userIdClaim))
+            {
+
+                return Unauthorized();
+            }
+
+            // 2. Buscar al usuario en la base de datos para asegurarnos de que aún existe/está activo
+            var user = _userRepository.GetUser(userIdClaim);
+            if (user == null)
+            {
+                return Unauthorized();
+            }
+
+            // 3. Generar un NUEVO token de refresco (tu repositorio debería tener esta lógica al hacer Login)
+            // Nota: Adapta "user" y el mapeo al método que uses en tu repositorio para generar tokens.
+            var userLoginDto = new UserLoginDto { Username=user.UserName,Password=user.PasswordHash};
+            var loginResult = await _userRepository.LoginAfterCheck(user); // O la lógica que uses para re-autenticar
+
+            // 4. Adaptar el resultado al DTO de respuesta (que incluya user, token y message)
+            return Ok(loginResult);
+        }
 
         [AllowAnonymous]
         [HttpPost("Login", Name = "LoginUser")]

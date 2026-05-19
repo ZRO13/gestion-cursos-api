@@ -453,6 +453,37 @@
   },
   {
     "ContainingType": "ApiEcommerce.Controllers.UsersController",
+    "Method": "CheckStatus",
+    "RelativePath": "api/v{version}/Users/check-status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiEcommerce.Controllers.UsersController",
     "Method": "LoginUser",
     "RelativePath": "api/v{version}/Users/Login",
     "HttpMethod": "POST",

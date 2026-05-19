@@ -10,5 +10,7 @@ namespace ApiGestionCursos.Repository.IRepository
         bool IsUniqueUser(string username);
         Task<UserLoginResponseDto> Login(UserLoginDto userLoginDto);
         Task<UserDataDto> Register(CreateUserDto createUserDto);
+
+        Task<UserLoginResponseDto> LoginAfterCheck(ApplicationUser user);
     }
 }

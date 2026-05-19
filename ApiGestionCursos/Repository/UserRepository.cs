@@ -114,6 +114,41 @@ namespace ApiGestionCursos.Repository{
             };
 
         }
+        public async Task<UserLoginResponseDto> LoginAfterCheck(ApplicationUser user)
+        {
+            // 1. Generación de JWT (Exactamente igual a tu lógica de Login original)
+            var handlerToken = new JwtSecurityTokenHandler();
+            if (string.IsNullOrWhiteSpace(secretKey))
+            {
+                throw new InvalidOperationException("SecretKey no esta configurada");
+            }
+
+            // Obtener los roles del usuario de manera asíncrona
+            var roles = await _userManager.GetRolesAsync(user);
+            var key = Encoding.UTF8.GetBytes(secretKey);
+
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(new[]
+                {
+            new Claim("id", user.Id.ToString()),
+            new Claim("username", user.UserName ?? string.Empty),
+            new Claim(ClaimTypes.Role, roles.FirstOrDefault() ?? string.Empty),
+        }),
+                Expires = DateTime.UtcNow.AddHours(2), // Le damos 2 horas más de vida al nuevo token
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+            };
+
+            var token = handlerToken.CreateToken(tokenDescriptor);
+
+            // 2. Retornar la respuesta con el nuevo Token y el usuario mapeado
+            return new UserLoginResponseDto()
+            {
+                Token = handlerToken.WriteToken(token),
+                User = user.Adapt<UserDataDto>(), // Tu Mapster original sin alterar nada
+                Message = "Token renovado correctamente"
+            };
+        }
 
         public async Task<UserDataDto> Register(CreateUserDto createUserDto)
         {
