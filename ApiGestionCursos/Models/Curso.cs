@@ -23,7 +23,7 @@ namespace ApiGestionCursos.Models
         public int Cupos { get; set; }
 
         [Required]
-        public DateTime FechaCreacion { get; set; } = DateTime.Now;
+        public DateTime FechaCreacion { get; set; } = DateTime.UtcNow;
 
         public int DocenteId { get; set; }
 

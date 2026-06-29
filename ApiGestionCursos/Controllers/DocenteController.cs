@@ -1,11 +1,14 @@
 ﻿using ApiGestionCursos.Models;
 using ApiGestionCursos.Services.IServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApiGestionCursos.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+
     public class DocentesController : ControllerBase
     {
         private readonly IDocenteService _docenteService;

@@ -1,0 +1,867 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\apigestioncursos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\apigestioncursos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\controllers\\inscripcionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\controllers\\inscripcionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\controllers\\estudiantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\controllers\\estudiantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\services\\docenteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\services\\docenteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\services\\iservices\\iinscripcionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\services\\iservices\\iinscripcionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\services\\iservices\\idocenteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\services\\iservices\\idocenteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\controllers\\docentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\controllers\\docentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\repository\\inscripcionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\repository\\inscripcionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\repository\\docenterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\repository\\docenterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\services\\iservices\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\services\\iservices\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\models\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\models\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\repository\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\repository\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\models\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\models\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\services\\inscripcionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\services\\inscripcionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\repository\\irepository\\iinscripcionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\repository\\irepository\\iinscripcionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\repository\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\repository\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\repository\\irepository\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\repository\\irepository\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\models\\inscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\models\\inscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\services\\estudianteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\services\\estudianteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\services\\iservices\\iestudianteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\services\\iservices\\iestudianteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\repository\\irepository\\iestudianterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\repository\\irepository\\iestudianterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\repository\\estudianterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\repository\\estudianterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\mapping\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\mapping\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\mapping\\mapsterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\mapping\\mapsterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\models\\docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\models\\docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\models\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\models\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\models\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\models\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\models\\dtos\\userloginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\models\\dtos\\userloginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\models\\dtos\\userdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\models\\dtos\\userdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\services\\cursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\services\\cursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\services\\iservices\\icursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\services\\iservices\\icursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\repository\\cursorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\repository\\cursorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\repository\\irepository\\icursorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\repository\\irepository\\icursorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|c:\\users\\admin\\source\\repos\\apigestioncursos\\apigestioncursos\\repository\\irepository\\idocenterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BEB1CB4-1D6A-4EEA-B245-826E2D3FE9CD}|ApiGestionCursos\\ApiGestionCursos.csproj|solutionrelative:apigestioncursos\\repository\\irepository\\idocenterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiGestionCursos",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\ApiGestionCursos.csproj",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\ApiGestionCursos.csproj",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\ApiGestionCursos.csproj",
+              "RelativeToolTip": "ApiGestionCursos\\ApiGestionCursos.csproj",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvykAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-29T23:23:57.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IDocenteService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Services\\IServices\\IDocenteService.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Services\\IServices\\IDocenteService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Services\\IServices\\IDocenteService.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Services\\IServices\\IDocenteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T22:03:36.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IInscripcionService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Services\\IServices\\IInscripcionService.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Services\\IServices\\IInscripcionService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Services\\IServices\\IInscripcionService.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Services\\IServices\\IInscripcionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T17:13:59.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DocenteService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Services\\DocenteService.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Services\\DocenteService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Services\\DocenteService.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Services\\DocenteService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T22:04:17.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EstudianteController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Controllers\\EstudianteController.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Controllers\\EstudianteController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Controllers\\EstudianteController.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Controllers\\EstudianteController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAswEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T22:28:03.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InscripcionesController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Controllers\\InscripcionesController.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Controllers\\InscripcionesController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Controllers\\InscripcionesController.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Controllers\\InscripcionesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T17:13:07.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Controllers\\CategoriaController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T17:10:38.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ApiGestionCursos\\data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T21:41:20.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAwwHgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T12:55:18.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DocenteController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Controllers\\DocenteController.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Controllers\\DocenteController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Controllers\\DocenteController.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Controllers\\DocenteController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAwwEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T22:05:09.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\appsettings.json",
+              "RelativeToolTip": "ApiGestionCursos\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-16T04:53:13.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T04:19:10.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InscripcionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Repository\\InscripcionRepository.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Repository\\InscripcionRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Repository\\InscripcionRepository.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Repository\\InscripcionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T17:13:44.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DocenteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Repository\\DocenteRepository.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Repository\\DocenteRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Repository\\DocenteRepository.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Repository\\DocenteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T22:01:39.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Program.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Program.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T21:20:33.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Curso.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\Curso.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Models\\Curso.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\Curso.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Models\\Curso.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwBkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T21:54:45.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Services\\CategoriaService.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Services\\CategoriaService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Services\\CategoriaService.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Services\\CategoriaService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T17:12:20.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ICategoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Services\\IServices\\ICategoriaService.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Services\\IServices\\ICategoriaService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Services\\IServices\\ICategoriaService.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Services\\IServices\\ICategoriaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T17:11:35.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserRegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\Dtos\\UserRegisterDto.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Models\\Dtos\\UserRegisterDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\Dtos\\UserRegisterDto.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Models\\Dtos\\UserRegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T03:40:30.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Repository\\IRepository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Repository\\IRepository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Repository\\IRepository\\IUserRepository.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Repository\\IRepository\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T04:11:38.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAAIVAAAAAAAAAAAjwBEVAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-05-16T17:26:54.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\Dtos\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Models\\Dtos\\CreateUserDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\Dtos\\CreateUserDto.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Models\\Dtos\\CreateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T03:37:04.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IInscripcionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Repository\\IRepository\\IInscripcionRepository.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Repository\\IRepository\\IInscripcionRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Repository\\IRepository\\IInscripcionRepository.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Repository\\IRepository\\IInscripcionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T17:13:26.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "InscripcionService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Services\\InscripcionService.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Services\\InscripcionService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Services\\InscripcionService.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Services\\InscripcionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T17:14:15.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Repository\\CategoriaRepository.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Repository\\CategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Repository\\CategoriaRepository.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Repository\\CategoriaRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T17:11:14.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ICategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Repository\\IRepository\\ICategoriaRepository.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Repository\\IRepository\\ICategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Repository\\IRepository\\ICategoriaRepository.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Repository\\IRepository\\ICategoriaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T17:11:01.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IEstudianteService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Services\\IServices\\IEstudianteService.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Services\\IServices\\IEstudianteService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Services\\IServices\\IEstudianteService.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Services\\IServices\\IEstudianteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T22:24:30.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EstudianteService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Services\\EstudianteService.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Services\\EstudianteService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Services\\EstudianteService.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Services\\EstudianteService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T22:27:20.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Inscripcion.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\Inscripcion.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Models\\Inscripcion.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\Inscripcion.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Models\\Inscripcion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T21:58:13.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\Categoria.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T21:58:47.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IEstudianteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Repository\\IRepository\\IEstudianteRepository.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Repository\\IRepository\\IEstudianteRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Repository\\IRepository\\IEstudianteRepository.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Repository\\IRepository\\IEstudianteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T22:22:54.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EstudianteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Repository\\EstudianteRepository.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Repository\\EstudianteRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Repository\\EstudianteRepository.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Repository\\EstudianteRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAswDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T22:23:43.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Mapping\\UserProfile.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Mapping\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Mapping\\UserProfile.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Mapping\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T03:49:47.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Estudiante.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\Estudiante.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Models\\Estudiante.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\Estudiante.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Models\\Estudiante.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T21:57:25.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Docente.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\Docente.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Models\\Docente.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\Docente.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Models\\Docente.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T21:55:37.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MapsterConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Mapping\\MapsterConfig.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Mapping\\MapsterConfig.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Mapping\\MapsterConfig.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Mapping\\MapsterConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T12:43:42.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\User.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T22:12:59.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T22:12:05.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\Dtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Models\\Dtos\\UserDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\Dtos\\UserDto.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Models\\Dtos\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T03:35:05.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\Dtos\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Models\\Dtos\\UserLoginDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\Dtos\\UserLoginDto.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Models\\Dtos\\UserLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T03:38:18.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UserLoginResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\Dtos\\UserLoginResponseDto.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Models\\Dtos\\UserLoginResponseDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\Dtos\\UserLoginResponseDto.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Models\\Dtos\\UserLoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T03:43:53.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UserDataDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\Dtos\\UserDataDto.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Models\\Dtos\\UserDataDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Models\\Dtos\\UserDataDto.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Models\\Dtos\\UserDataDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T12:35:08.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ICursoService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Services\\IServices\\ICursoService.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Services\\IServices\\ICursoService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Services\\IServices\\ICursoService.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Services\\IServices\\ICursoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T22:52:32.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CursoService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Services\\CursoService.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Services\\CursoService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Services\\CursoService.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Services\\CursoService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAqwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T22:53:01.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CursoController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Controllers\\CursoController.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Controllers\\CursoController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Controllers\\CursoController.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Controllers\\CursoController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAqwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T22:53:51.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CursoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Repository\\CursoRepository.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Repository\\CursoRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Repository\\CursoRepository.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Repository\\CursoRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAABBwBQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T22:03:38.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ICursoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Repository\\IRepository\\ICursoRepository.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Repository\\IRepository\\ICursoRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Repository\\IRepository\\ICursoRepository.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Repository\\IRepository\\ICursoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T22:02:46.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IDocenteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Repository\\IRepository\\IDocenteRepository.cs",
+              "RelativeDocumentMoniker": "ApiGestionCursos\\Repository\\IRepository\\IDocenteRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ApiGestionCursos\\ApiGestionCursos\\Repository\\IRepository\\IDocenteRepository.cs",
+              "RelativeToolTip": "ApiGestionCursos\\Repository\\IRepository\\IDocenteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T22:00:33.013Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 130,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 130,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:730636197:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
