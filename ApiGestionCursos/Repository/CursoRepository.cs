@@ -16,17 +16,14 @@ namespace ApiGestionCursos.Repository
         public ICollection<Curso> GetCursos()
         {
             return _db.Cursos
-        .Include(c => c.Docente) // <--- Esta es la clave
+        .Include(c => c.Docente) 
         .OrderBy(c => c.Nombre)
         .ToList();
-            //return _db.Cursos.OrderBy(c => c.Nombre).ToList();
         }
 
         public Curso? GetCurso(int id)
         {
-            // Usamos AsNoTracking para que EF no rastree esta entidad
-            // y no choque con la entidad que enviaremos en el Update
-
+          
             return _db.Cursos.AsNoTracking().FirstOrDefault(c => c.CursoId == id);
         }
 

@@ -33,6 +33,11 @@ builder.Services.AddScoped<IDocenteService, DocenteService>();
 builder.Services.AddScoped<IEstudianteRepository, EstudianteRepository>();
 builder.Services.AddScoped<IEstudianteService, EstudianteService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
+builder.Services.AddScoped<ICategoriaService, CategoriaService>();
+
+builder.Services.AddScoped<IInscripcionRepository, InscripcionRepository>();
+builder.Services.AddScoped<IInscripcionService, InscripcionService>();
 builder.Services.AddMapster();
 
 MapsterConfig.RegisterMappings();
@@ -53,7 +58,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAngular", policy =>
     {
-        policy.WithOrigins("http://localhost:4200") // El puerto exacto que muestra tu consola
+        policy.WithOrigins("http://localhost:4200")
               .AllowAnyMethod()
               .AllowAnyHeader();
     });
@@ -78,7 +83,6 @@ apiVersioningBuilder.AddApiExplorer(option =>
 var app = builder.Build();
 app.UseCors("AllowAngular");
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

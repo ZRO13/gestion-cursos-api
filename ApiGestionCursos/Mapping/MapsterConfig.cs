@@ -8,54 +8,7 @@ namespace ApiGestionCursos.Mapping
     {
         public static void RegisterMappings()
         {
-            //// =========================
-            //// CURSO <-> DTOs
-            //// =========================
-
-            //TypeAdapterConfig<Curso, CursoDto>.NewConfig()
-            //    .Map(dest => dest.DocenteNombre,
-            //         src => src.Docente.Nombre)
-            //    .TwoWays();
-
-            //TypeAdapterConfig<Curso, CreateCursoDto>.NewConfig()
-            //    .TwoWays();
-
-            //TypeAdapterConfig<Curso, UpdateCursoDto>.NewConfig()
-            //    .TwoWays();
-
-
-            //// =========================
-            //// DOCENTE <-> DTOs
-            //// =========================
-
-            //TypeAdapterConfig<Docente, DocenteDto>.NewConfig()
-            //    .TwoWays();
-
-            //TypeAdapterConfig<Docente, CreateDocenteDto>.NewConfig()
-            //    .TwoWays();
-
-            //TypeAdapterConfig<Docente, UpdateDocenteDto>.NewConfig()
-            //    .TwoWays();
-
-
-            //// =========================
-            //// ESTUDIANTE <-> DTOs
-            //// =========================
-
-            //TypeAdapterConfig<Estudiante, EstudianteDto>.NewConfig()
-            //    .TwoWays();
-
-            //TypeAdapterConfig<Estudiante, CreateEstudianteDto>.NewConfig()
-            //    .TwoWays();
-
-            //TypeAdapterConfig<Estudiante, UpdateEstudianteDto>.NewConfig()
-            //    .TwoWays();
-
-
-            // =========================
-            // USER / AUTH
-            // =========================
-
+       
             TypeAdapterConfig<ApplicationUser, UserDto>.NewConfig()
                 .TwoWays();
 

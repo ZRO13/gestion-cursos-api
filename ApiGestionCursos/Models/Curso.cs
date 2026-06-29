@@ -25,7 +25,6 @@ namespace ApiGestionCursos.Models
         [Required]
         public DateTime FechaCreacion { get; set; } = DateTime.Now;
 
-        // FK
         public int DocenteId { get; set; }
 
         public Docente? Docente { get; set; }

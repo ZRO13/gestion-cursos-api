@@ -13,12 +13,10 @@ namespace ApiGestionCursos.Models
 
         public decimal NotaFinal { get; set; }
 
-        // FK
         public int CursoId { get; set; }
 
         public int EstudianteId { get; set; }
 
-        // Navigation
         public Curso? Curso { get; set; }
 
         public Estudiante? Estudiante { get; set; }

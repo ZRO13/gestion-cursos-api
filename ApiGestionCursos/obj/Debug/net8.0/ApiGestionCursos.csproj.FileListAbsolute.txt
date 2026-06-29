@@ -160,4 +160,5 @@ C:\Users\Admin\source\repos\ApiGestionCursos\ApiGestionCursos\obj\Debug\net8.0\A
 C:\Users\Admin\source\repos\ApiGestionCursos\ApiGestionCursos\obj\Debug\net8.0\ApiGestionCursos.genruntimeconfig.cache
 C:\Users\Admin\source\repos\ApiGestionCursos\ApiGestionCursos\obj\Debug\net8.0\ref\ApiGestionCursos.dll
 C:\Users\Admin\source\repos\ApiGestionCursos\ApiGestionCursos\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Admin\source\repos\ApiGestionCursos\ApiGestionCursos\obj\Debug\net8.0\ApiGestionCursos.sourcelink.json
 C:\Users\Admin\source\repos\ApiGestionCursos\ApiGestionCursos\obj\Debug\net8.0\swae.build.ex.cache
